@@ -1,0 +1,32 @@
+import java.util.Date;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+ Date date;
+     GregorianCalendar cal;
+     String strdate;
+
+
+
+ 
+	    JLabel dat=new JLabel("Date :-");		
+		dat.setBounds(450,120,80,30);
+		cust_bill.add(dat);
+       	dat.setFont(f2);  
+	    
+		date=new Date();
+		cal=new GregorianCalendar();
+		strdate=cal.get(Calendar.DATE)+"/"+(cal.get(Calendar.MONTH)+1)+"/"+(cal.get(Calendar.YEAR));
+		strtime=cal.get(Calendar.HOUR_OF_DAY)+":"+(cal.get(Calendar.MINUTE);
+		str=cal.getTime()
+	    
+		JLabel str=new JLabel(strdate);    
+		str.setBounds(500,120,80,30);
+	    cust_bill.add(str);
+       	str.setFont(f2); 
+
+
+
+
+DataFormat datef=new SimpleDateFormat("HH:mm:ss a");
+   	
