@@ -1,0 +1,20 @@
+e locker project...
+
+upload page
+download page
+	file select
+	multiple/all select
+generate link
+	multiple/all select link generate
+delete
+	delete account
+	delete file
+		multiple/all file delete
+user profile/info
+	password update
+forget password
+forget id
+
+signup
+login
+employee view read only download
